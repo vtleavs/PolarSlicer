@@ -1,4 +1,7 @@
 
+#ifndef _SETTINGS_
+#define _SETTINGS_
+
 #include <string>
 
 #include "CoordinateSystems.h"
@@ -37,3 +40,5 @@ class BuildSettings()
     private:
         std::string
 };
+
+#endif

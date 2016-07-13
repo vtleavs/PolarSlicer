@@ -1,4 +1,9 @@
 
+#ifndef _COORD_SYS_
+#define _COORD_SYS_
+
+#include "Settings.h"
+
 class PrinterCoordinate
 {
     public:
@@ -44,3 +49,6 @@ inline PrinterCoordinate polar_to_printer(PolarCoordinate point)
 inline PrinterCartesian polar_to_cartesian(PolarCoordinate point)
 {
 }
+
+
+#endif // _COORD_SYS_
