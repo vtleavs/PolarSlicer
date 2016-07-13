@@ -1,3 +1,26 @@
 # depslib dependency file v1.0
 1468375024 source:c:\users\ben\onedrive\documents\programming\code blocks projects\polarslicer\coordinatesystems.cpp
 
+1468432561 source:c:\users\ben\documents\github\polarslicer\main.cpp
+	<string>
+	<iostream>
+	<fstream>
+	"Settings.h"
+	"CoordinateSystems.h"
+	"CoordinateSystems.cpp"
+
+1468430044 c:\users\ben\documents\github\polarslicer\settings.h
+	<string>
+	"CoordinateSystems.h"
+
+1468432833 c:\users\ben\documents\github\polarslicer\coordinatesystems.h
+	<math.h>
+	<iostream>
+	"Settings.h"
+
+1468374314 source:c:\users\ben\documents\github\polarslicer\settings.cpp
+
+1468429381 source:c:\users\ben\documents\github\polarslicer\coordinatesystems.cpp
+
+1468429381 c:\users\ben\documents\github\polarslicer\coordinatesystems.cpp
+

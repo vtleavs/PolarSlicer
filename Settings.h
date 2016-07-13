@@ -33,12 +33,12 @@ class PrinterSettings
 
 };
 
-class BuildSettings()
+class BuildSettings
 {
     public:
 
     private:
-        std::string
+        std::string units = "mm";
 };
 
 #endif

@@ -4,11 +4,15 @@
     @author Ben Leavitt (vtleavs)
 */
 
+#define PI 3.14159265
+
 #include <string>
 #include <iostream>
 #include <fstream>
 
 #include "Settings.h"
+#include "CoordinateSystems.h"
+#include "CoordinateSystems.cpp"
 
 int settings_file()
 {
@@ -32,9 +36,13 @@ int main()
         if(inputchar == "y")
             settings_file();
         else if(inputchar == "n")
-            std::cout << "[load current settings file]";
+            std::cout << "[load current settings file]\n";
         else
             std::cout << "please type either 'y' or 'n'\n";
     }
     while(inputchar != "y" && inputchar != "n");
+
+    PolarCoordinate polar = cartesian_to_polar(CartesianCoordinate(60, 60, 40));
+    std::cout << "\n" << polar << std::endl;
+    std::cout << "\n" << polar_to_cartesian(polar) << std::endl;
 }
